@@ -1,3 +1,6 @@
+# Code is inspired by matthew.makai@gmail.com
+# See https://www.fullstackpython.com/blog/postgresql-python-3-psycopg2-ubuntu-1604.html
+
 import psycopg2
 import os
 import random
