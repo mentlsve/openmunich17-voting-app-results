@@ -10,7 +10,7 @@ This is a helper to create the `votes` table and insert some data so the result 
 cd test-data-loader
 bash$ docker build -t test-data-loader .
 ```
-2. Start a postgres db (skip if you have a running posgres instance you want to use). Using the default postgres image, documentation is [here](https://hub.docker.com/_/postgres/)
+2. Start a postgres db (skip if you have a running postgres instance you want to use). Using the default postgres image, documentation is [here](https://hub.docker.com/_/postgres/)
 ```
 bash$ docker run --name results-test-db -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
