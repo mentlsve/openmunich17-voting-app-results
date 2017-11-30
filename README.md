@@ -37,5 +37,6 @@ bash$ docker run --name ui -p 80:80 -e "PGHOST=$TEST_DB_HOST" result-voting-app
 An automatic build has been created on Docker hub so you can also do a
 
 ```
+bash$ docker pull mentlsve/openmunich17-voting-app-results
 bash$ docker run --name ui -p 80:80 -e "PGHOST=$TEST_DB_HOST" mentlsve/openmunich17-voting-app-results
 ```

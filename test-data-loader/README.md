@@ -4,7 +4,7 @@ This is a helper to create the `votes` table and insert some data so the result 
 
 ## Usage
 
-1. Build the container
+1. Build the image
 ```
 # Assuming we are currently at the repository root
 cd test-data-loader
